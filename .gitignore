@@ -20,3 +20,6 @@ UATs/results
 doxygen/
 .bundle
 
+*.ts
+*.mp4
+*.m3u8
