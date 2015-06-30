@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GCDWebServer" "${PODS_ROOT}/Headers/Public/Masonry"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GCDWebServer" -isystem "${PODS_ROOT}/Headers/Public/Masonry"
+OTHER_LDFLAGS = -ObjC -l"Pods-mp4webserver-GCDWebServer" -l"Pods-mp4webserver-Masonry" -l"z" -framework "CFNetwork" -framework "Foundation" -framework "MobileCoreServices" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
