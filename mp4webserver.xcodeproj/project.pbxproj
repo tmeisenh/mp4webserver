@@ -101,15 +101,17 @@
 		1F1F9BC11B435A1700D32201 /* mp4webserver */ = {
 			isa = PBXGroup;
 			children = (
-				1F8F4D391B4361FB0078B6B7 /* sample_mp4 */,
 				1F1F9BC61B435A1700D32201 /* AppDelegate.h */,
 				1F1F9BC71B435A1700D32201 /* AppDelegate.m */,
 				1F1F9BCF1B435A1700D32201 /* Images.xcassets */,
+				1F8F4D391B4361FB0078B6B7 /* sample_mp4 */,
+				1F8F4D2E1B4360D20078B6B7 /* SegmentedFile.h */,
+				1F8F4D2F1B4360D20078B6B7 /* SegmentedFile.m */,
+				1FC35C5F1B436D8300FD43E6 /* Server.h */,
+				1FC35C601B436D8300FD43E6 /* Server.m */,
 				1F1F9BC21B435A1700D32201 /* Supporting Files */,
 				1F1F9BE81B435AB800D32201 /* VideoViewController.h */,
 				1F1F9BE91B435AB800D32201 /* VideoViewController.m */,
-				1F8F4D2E1B4360D20078B6B7 /* SegmentedFile.h */,
-				1F8F4D2F1B4360D20078B6B7 /* SegmentedFile.m */,
 			);
 			path = mp4webserver;
 			sourceTree = "<group>";
@@ -147,8 +149,6 @@
 				1F8F4D321B4361F40078B6B7 /* 000001.ts */,
 				1F8F4D331B4361F40078B6B7 /* 000002.ts */,
 				1F8F4D341B4361F40078B6B7 /* playlist.m3u8 */,
-				1FC35C5F1B436D8300FD43E6 /* Server.h */,
-				1FC35C601B436D8300FD43E6 /* Server.m */,
 			);
 			name = sample_mp4;
 			sourceTree = "<group>";
