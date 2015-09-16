@@ -1,27 +1,23 @@
 #import "VideoViewController.h"
 
-#import "Server.h"
-
 #define MAS_SHORTHAND
 #import <Masonry/Masonry.h>
 #import <MediaPlayer/MPMoviePlayerViewController.h>
 
 @interface VideoViewController()
 
-@property (nonatomic) Server *server;
+@property (nonatomic) MPMoviePlayerViewController *movieController;
 
 @end
 
 @implementation VideoViewController
 
-- (instancetype)initWithServer:(Server *)server {
-    if (self = [super initWithNibName:nil bundle:nil]) {
-        _server = server;
-    }
-    return self;
+- (void)didReceiveMemoryWarning {
+    NSLog(@"OK Great");
 }
 
 - (void)viewDidLoad {
+    [super viewDidLoad];
     self.view.backgroundColor = [UIColor orangeColor];
     
     
@@ -46,12 +42,14 @@
     }];
 }
 
+- (void)handleNotification:(NSNotification *)notification {
+    NSLog(@"received notification: %@", notification.name);
+}
+
 - (void)launchPlayer {
-    [self.server serveFile];
-    NSURL *url = [NSURL URLWithString:@"http://127.0.0.1:8080/playlist/"];
-    MPMoviePlayerViewController *player = [[MPMoviePlayerViewController alloc] initWithContentURL:url];
-    
-    [self presentMoviePlayerViewControllerAnimated:player];
+    NSURL *url = [NSURL URLWithString:@"http://127.0.0.1:8000/playlist.m3u8"];
+    self.movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:url];
+    [self presentMoviePlayerViewControllerAnimated:self.movieController];
 }
 
 @end

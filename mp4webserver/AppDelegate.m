@@ -2,8 +2,6 @@
 
 #import "VideoViewController.h"
 
-#import "Server.h"
-
 @interface AppDelegate ()
 
 @property (nonatomic) Server *server;
@@ -16,10 +14,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    self.server = [[Server alloc] init];
-    
-    VideoViewController *vc = [[VideoViewController alloc] initWithServer:self.server];
+        
+    VideoViewController *vc = [[VideoViewController alloc] init];
     
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];

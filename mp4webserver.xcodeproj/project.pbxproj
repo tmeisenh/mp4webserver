@@ -12,13 +12,8 @@
 		1F1F9BD01B435A1700D32201 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1F9BCF1B435A1700D32201 /* Images.xcassets */; };
 		1F1F9BDF1B435A1800D32201 /* mp4webserverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F9BDE1B435A1800D32201 /* mp4webserverTests.m */; };
 		1F1F9BEA1B435AB800D32201 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F9BE91B435AB800D32201 /* VideoViewController.m */; };
-		1F8F4D301B4360D20078B6B7 /* SegmentedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8F4D2F1B4360D20078B6B7 /* SegmentedFile.m */; };
-		1F8F4D351B4361F40078B6B7 /* 000000.ts in Resources */ = {isa = PBXBuildFile; fileRef = 1F8F4D311B4361F40078B6B7 /* 000000.ts */; };
-		1F8F4D361B4361F40078B6B7 /* 000001.ts in Resources */ = {isa = PBXBuildFile; fileRef = 1F8F4D321B4361F40078B6B7 /* 000001.ts */; };
-		1F8F4D371B4361F40078B6B7 /* 000002.ts in Resources */ = {isa = PBXBuildFile; fileRef = 1F8F4D331B4361F40078B6B7 /* 000002.ts */; };
-		1F8F4D381B4361F40078B6B7 /* playlist.m3u8 in Resources */ = {isa = PBXBuildFile; fileRef = 1F8F4D341B4361F40078B6B7 /* playlist.m3u8 */; };
 		1FC35C5E1B43677100FD43E6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC35C5D1B43677100FD43E6 /* MediaPlayer.framework */; };
-		1FC35C611B436D8300FD43E6 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC35C601B436D8300FD43E6 /* Server.m */; };
+		5A13CAB61BA9D619003D8CEC /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A13CAB51BA9D619003D8CEC /* AVKit.framework */; };
 		7FEA2B176E8E684201129FF0 /* libPods-mp4webserver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 649D65B5DD841371D2793904 /* libPods-mp4webserver.a */; };
 /* End PBXBuildFile section */
 
@@ -45,15 +40,8 @@
 		1F1F9BDE1B435A1800D32201 /* mp4webserverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mp4webserverTests.m; sourceTree = "<group>"; };
 		1F1F9BE81B435AB800D32201 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
 		1F1F9BE91B435AB800D32201 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
-		1F8F4D2E1B4360D20078B6B7 /* SegmentedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedFile.h; sourceTree = "<group>"; };
-		1F8F4D2F1B4360D20078B6B7 /* SegmentedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedFile.m; sourceTree = "<group>"; };
-		1F8F4D311B4361F40078B6B7 /* 000000.ts */ = {isa = PBXFileReference; lastKnownFileType = file; name = 000000.ts; path = videos/000000.ts; sourceTree = SOURCE_ROOT; };
-		1F8F4D321B4361F40078B6B7 /* 000001.ts */ = {isa = PBXFileReference; lastKnownFileType = file; name = 000001.ts; path = videos/000001.ts; sourceTree = SOURCE_ROOT; };
-		1F8F4D331B4361F40078B6B7 /* 000002.ts */ = {isa = PBXFileReference; lastKnownFileType = file; name = 000002.ts; path = videos/000002.ts; sourceTree = SOURCE_ROOT; };
-		1F8F4D341B4361F40078B6B7 /* playlist.m3u8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = playlist.m3u8; path = videos/playlist.m3u8; sourceTree = SOURCE_ROOT; };
 		1FC35C5D1B43677100FD43E6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		1FC35C5F1B436D8300FD43E6 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
-		1FC35C601B436D8300FD43E6 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		5A13CAB51BA9D619003D8CEC /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		649D65B5DD841371D2793904 /* libPods-mp4webserver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mp4webserver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F11A49ED201D0B8D92DE8E /* Pods-mp4webserver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mp4webserver.release.xcconfig"; path = "Pods/Target Support Files/Pods-mp4webserver/Pods-mp4webserver.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A13CAB61BA9D619003D8CEC /* AVKit.framework in Frameworks */,
 				1FC35C5E1B43677100FD43E6 /* MediaPlayer.framework in Frameworks */,
 				7FEA2B176E8E684201129FF0 /* libPods-mp4webserver.a in Frameworks */,
 			);
@@ -104,11 +93,6 @@
 				1F1F9BC61B435A1700D32201 /* AppDelegate.h */,
 				1F1F9BC71B435A1700D32201 /* AppDelegate.m */,
 				1F1F9BCF1B435A1700D32201 /* Images.xcassets */,
-				1F8F4D391B4361FB0078B6B7 /* sample_mp4 */,
-				1F8F4D2E1B4360D20078B6B7 /* SegmentedFile.h */,
-				1F8F4D2F1B4360D20078B6B7 /* SegmentedFile.m */,
-				1FC35C5F1B436D8300FD43E6 /* Server.h */,
-				1FC35C601B436D8300FD43E6 /* Server.m */,
 				1F1F9BC21B435A1700D32201 /* Supporting Files */,
 				1F1F9BE81B435AB800D32201 /* VideoViewController.h */,
 				1F1F9BE91B435AB800D32201 /* VideoViewController.m */,
@@ -142,17 +126,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1F8F4D391B4361FB0078B6B7 /* sample_mp4 */ = {
-			isa = PBXGroup;
-			children = (
-				1F8F4D311B4361F40078B6B7 /* 000000.ts */,
-				1F8F4D321B4361F40078B6B7 /* 000001.ts */,
-				1F8F4D331B4361F40078B6B7 /* 000002.ts */,
-				1F8F4D341B4361F40078B6B7 /* playlist.m3u8 */,
-			);
-			name = sample_mp4;
-			sourceTree = "<group>";
-		};
 		2785236BB59BA769A200B38E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +138,7 @@
 		6DF0E9C9BB31CFA21AB04918 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A13CAB51BA9D619003D8CEC /* AVKit.framework */,
 				1FC35C5D1B43677100FD43E6 /* MediaPlayer.framework */,
 				649D65B5DD841371D2793904 /* libPods-mp4webserver.a */,
 			);
@@ -253,10 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8F4D371B4361F40078B6B7 /* 000002.ts in Resources */,
-				1F8F4D381B4361F40078B6B7 /* playlist.m3u8 in Resources */,
-				1F8F4D361B4361F40078B6B7 /* 000001.ts in Resources */,
-				1F8F4D351B4361F40078B6B7 /* 000000.ts in Resources */,
 				1F1F9BD01B435A1700D32201 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,9 +280,7 @@
 			files = (
 				1F1F9BC81B435A1700D32201 /* AppDelegate.m in Sources */,
 				1F1F9BC51B435A1700D32201 /* main.m in Sources */,
-				1F8F4D301B4360D20078B6B7 /* SegmentedFile.m in Sources */,
 				1F1F9BEA1B435AB800D32201 /* VideoViewController.m in Sources */,
-				1FC35C611B436D8300FD43E6 /* Server.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

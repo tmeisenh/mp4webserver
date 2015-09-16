@@ -3,7 +3,6 @@
 
 target 'mp4webserver' do
   pod 'Masonry'
-  pod 'GCDWebServer'
 end
 
 target 'mp4webserverTests' do
